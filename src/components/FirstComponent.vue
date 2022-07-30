@@ -3,16 +3,12 @@
     <h1>This is a test - Hello World</h1>
     <p>Just to see, "{{testMessage}}"</p>
     <a :href="ironhackLink" target="_blank">{{testLinkMessage}}</a>
-    <input type="text" v-model="textInput"> <span>Here is your text input: "{{textInput}}""</span>
+    <input type="text" v-model="textInput"> <span>Here is your text input: "{{textInput}}"</span>
     <button @click="btnClicked(); helloWorld();">Test btn for v-on</button>
   </div>
 </template>
 
 <script>
-/* Mostachos
-  v-bind (:)
-  v-on (@)
-  v-model */
 export default {
   data() {
     return {
